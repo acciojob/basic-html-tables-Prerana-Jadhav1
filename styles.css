@@ -1,2 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+body {
+    min-height: 100vh;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+table {
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background: #2563eb;
+    color: #fff;
+}
+
+th,
+td {
+    padding: 12px 32px;
+    text-align: left;
+    border: 1px solid #e5e7eb;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+tbody tr:hover {
+    background: #eff6ff;
+}
